@@ -1,0 +1,45 @@
+\hypertarget{classusermgmt_1_1models_1_1OverheadReq}{}\doxysection{usermgmt.\+models.\+Overhead\+Req Class Reference}
+\label{classusermgmt_1_1models_1_1OverheadReq}\index{usermgmt.models.OverheadReq@{usermgmt.models.OverheadReq}}
+
+
+Class for Re\+Rebate\+Req table creation attributes -\/ student,meal\+Type, date etc.  
+
+
+Inheritance diagram for usermgmt.\+models.\+Overhead\+Req\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classusermgmt_1_1models_1_1OverheadReq}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classusermgmt_1_1models_1_1OverheadReq_a022065717116753ada618a26d177e3f7}\label{classusermgmt_1_1models_1_1OverheadReq_a022065717116753ada618a26d177e3f7}} 
+def {\bfseries \+\_\+\+\_\+str\+\_\+\+\_\+} (self)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classusermgmt_1_1models_1_1OverheadReq_a0f2eb929a86ec041744dbee04f15d0cf}\label{classusermgmt_1_1models_1_1OverheadReq_a0f2eb929a86ec041744dbee04f15d0cf}} 
+{\bfseries student} = models.\+Foreign\+Key(\mbox{\hyperlink{classusermgmt_1_1models_1_1Student}{Student}}, on\+\_\+delete=models.\+C\+A\+S\+C\+A\+DE)
+\item 
+\mbox{\Hypertarget{classusermgmt_1_1models_1_1OverheadReq_a493a2f32c35cd0cf148890efa76d6a0e}\label{classusermgmt_1_1models_1_1OverheadReq_a493a2f32c35cd0cf148890efa76d6a0e}} 
+{\bfseries meal\+Type} = models.\+Foreign\+Key(\mbox{\hyperlink{classusermgmt_1_1models_1_1Meal}{Meal}},on\+\_\+delete=models.\+C\+A\+S\+C\+A\+DE)
+\item 
+\mbox{\Hypertarget{classusermgmt_1_1models_1_1OverheadReq_a7851240ed6e61a4d00fb83ff8746ce11}\label{classusermgmt_1_1models_1_1OverheadReq_a7851240ed6e61a4d00fb83ff8746ce11}} 
+{\bfseries date} = models.\+Date\+Field(max\+\_\+length=10, help\+\_\+text=\char`\"{}format \+: D\+D\+M\+M\+Y\+Y\+YY\char`\"{}, null=True, auto\+\_\+now\+\_\+add=True)
+\item 
+\mbox{\Hypertarget{classusermgmt_1_1models_1_1OverheadReq_ae814ba653931ec39780435a38f683747}\label{classusermgmt_1_1models_1_1OverheadReq_ae814ba653931ec39780435a38f683747}} 
+{\bfseries status} = models.\+Char\+Field(max\+\_\+length = 1, choices = \mbox{[}(\textquotesingle{}Y\textquotesingle{},\textquotesingle{}yes\textquotesingle{}),(\textquotesingle{}N\textquotesingle{},\textquotesingle{}no\textquotesingle{}), (\textquotesingle{}W\textquotesingle{},\textquotesingle{}wait\textquotesingle{})\mbox{]})
+\item 
+\mbox{\Hypertarget{classusermgmt_1_1models_1_1OverheadReq_aa657362cf4c0613f20ddbfd968c51be1}\label{classusermgmt_1_1models_1_1OverheadReq_aa657362cf4c0613f20ddbfd968c51be1}} 
+{\bfseries count} = models.\+Integer\+Field(default = 1)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class for Re\+Rebate\+Req table creation attributes -\/ student,meal\+Type, date etc. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+models.\+py\end{DoxyCompactItemize}

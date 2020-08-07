@@ -1,0 +1,42 @@
+\hypertarget{classusermgmt_1_1models_1_1RebateReq}{}\doxysection{usermgmt.\+models.\+Rebate\+Req Class Reference}
+\label{classusermgmt_1_1models_1_1RebateReq}\index{usermgmt.models.RebateReq@{usermgmt.models.RebateReq}}
+
+
+Class for Re\+Rebate\+Req table creation attributes -\/ student, date etc.  
+
+
+Inheritance diagram for usermgmt.\+models.\+Rebate\+Req\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classusermgmt_1_1models_1_1RebateReq}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classusermgmt_1_1models_1_1RebateReq_acf8eee74d358a539cfb070737a18032e}\label{classusermgmt_1_1models_1_1RebateReq_acf8eee74d358a539cfb070737a18032e}} 
+def {\bfseries \+\_\+\+\_\+str\+\_\+\+\_\+} (self)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classusermgmt_1_1models_1_1RebateReq_aa5a8fe12aefc1b84d0207a0f2ae049d6}\label{classusermgmt_1_1models_1_1RebateReq_aa5a8fe12aefc1b84d0207a0f2ae049d6}} 
+{\bfseries student} = models.\+Foreign\+Key(\mbox{\hyperlink{classusermgmt_1_1models_1_1Student}{Student}},on\+\_\+delete=models.\+C\+A\+S\+C\+A\+DE)
+\item 
+\mbox{\Hypertarget{classusermgmt_1_1models_1_1RebateReq_a5f3d5adf2fe99b2f8d52758d3f9562dc}\label{classusermgmt_1_1models_1_1RebateReq_a5f3d5adf2fe99b2f8d52758d3f9562dc}} 
+{\bfseries from\+Date} = models.\+Date\+Field(max\+\_\+length=10, help\+\_\+text=\char`\"{}format \+: D\+D\+M\+M\+Y\+Y\+YY\char`\"{}, null=True)
+\item 
+\mbox{\Hypertarget{classusermgmt_1_1models_1_1RebateReq_a9cbba79262602cd7778be7537d1619d8}\label{classusermgmt_1_1models_1_1RebateReq_a9cbba79262602cd7778be7537d1619d8}} 
+{\bfseries to\+Date} = models.\+Date\+Field(max\+\_\+length=10, help\+\_\+text=\char`\"{}format \+: D\+D\+M\+M\+Y\+Y\+YY\char`\"{}, null=True)
+\item 
+\mbox{\Hypertarget{classusermgmt_1_1models_1_1RebateReq_ae28b822af148d0df56ffaa169bf99909}\label{classusermgmt_1_1models_1_1RebateReq_ae28b822af148d0df56ffaa169bf99909}} 
+{\bfseries status} = models.\+Char\+Field(max\+\_\+length = 1, choices = \mbox{[}(\textquotesingle{}Y\textquotesingle{},\textquotesingle{}yes\textquotesingle{}),(\textquotesingle{}N\textquotesingle{},\textquotesingle{}no\textquotesingle{}), (\textquotesingle{}W\textquotesingle{},\textquotesingle{}wait\textquotesingle{})\mbox{]})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class for Re\+Rebate\+Req table creation attributes -\/ student, date etc. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+models.\+py\end{DoxyCompactItemize}
