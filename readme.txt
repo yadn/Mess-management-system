@@ -30,7 +30,7 @@ using the app.Less efforts and better results for every one
 
 Git link of the project:
 
-https://git.cse.iitb.ac.in/yadny/CS699_project
+https://github.com/yadn/Mess-management-system
 
 
 How to run the webapp:
